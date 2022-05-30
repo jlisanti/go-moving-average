@@ -19,6 +19,7 @@ type MovingAverage struct {
 	NumValues     int
 	SlopeNegative bool
 	Slope         float64
+	SlopeChange   int
 	Intercept     float64
 }
 
